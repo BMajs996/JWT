@@ -1,0 +1,29 @@
+{
+  "name": "jwt",
+  "version": "1.0.0",
+  "description": "JWT exercise",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BMajs996/JWT.git"
+  },
+  "author": "Bojan Majstorovic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BMajs996/JWT/issues"
+  },
+  "homepage": "https://github.com/BMajs996/JWT#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-async-errors": "^3.1.1",
+    "http-status-code": "^2.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.3",
+    "nodemon": "^2.0.15"
+  }
+}
